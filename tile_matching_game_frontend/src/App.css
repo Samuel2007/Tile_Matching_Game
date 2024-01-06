@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.TextCountDown {
+  font-weight: bold;
+  font-size: 25px;
+}
+.Interface {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+}

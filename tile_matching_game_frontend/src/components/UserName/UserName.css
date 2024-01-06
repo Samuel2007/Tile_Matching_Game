@@ -1,0 +1,12 @@
+.UserName {
+  height: 15px;
+  width: 145px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.Container {
+  width: 170px;
+}

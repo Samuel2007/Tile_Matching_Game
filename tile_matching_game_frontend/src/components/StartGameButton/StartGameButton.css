@@ -1,0 +1,20 @@
+.StartButton {
+  height: 50px;
+  width: 125px;
+  border-radius: 40px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+}
+.StartButtonText {
+  color: white;
+  font-weight: bold;
+  font-size: 12.5px;
+}
+.Error {
+  color: red;
+  font-weight: bold;
+  font-size: 12.5px;
+}

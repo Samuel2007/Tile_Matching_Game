@@ -1,0 +1,12 @@
+.CustomDifficulty {
+  height: 15px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 65px;
+  margin-bottom: 5px;
+}
+.Container {
+  width: 170px;
+}
