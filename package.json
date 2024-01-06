@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "render-postbuild": "cd tile_matching_game_frontend && npm install && npm run build"
+    "render-postbuild": "npm install && cd tile_matching_game_frontend && npm install && npm run build"
   },
   "author": "Samuel",
   "license": "ISC",
