@@ -102,7 +102,7 @@ function TilesContainer({
       console.log(gameDifficulty);
       setIsRunning(false);
       axios
-        .post("http://127.0.0.1:5000/API/post", {
+        .post("http://localhost:5000/API/post", {
           name: userName,
           time: formatTimeToString(time),
           level: gameDifficulty,
@@ -112,7 +112,7 @@ function TilesContainer({
         .then(() => {
           axios
             .get(
-              `http://127.0.0.1:5000/API/getAll/${gameDifficulty}/${customDifficulty}`
+              `http://localhost:5000/API/getAll/${gameDifficulty}/${customDifficulty}`
             )
             .then((data) => {
               setLeaderboardData(data.data);

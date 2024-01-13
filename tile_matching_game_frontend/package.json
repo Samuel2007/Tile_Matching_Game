@@ -1,5 +1,5 @@
 {
-  "proxy": "http://localhost:5000",
+  "proxy": "https://tile-matching-game.onrender.com",
   "name": "tile_matching_game",
   "version": "0.1.0",
   "private": true,
